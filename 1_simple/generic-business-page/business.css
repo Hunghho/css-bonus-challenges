@@ -80,7 +80,6 @@ body {
 
 }
 .nav {
-    display: flex;
     flex-grow: 1;
     list-style: none;
     padding: 0;
@@ -89,6 +88,6 @@ body {
 .nav-link{
     text-decoration: none;
     color: white;
-    padding: 1em;
+    padding: .5em;
 
 }
