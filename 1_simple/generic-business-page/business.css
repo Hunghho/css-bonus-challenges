@@ -20,109 +20,80 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    padding: 0;
-    margin: 0
-}
-
-.row.nav-bar {
-    display: flex;
-    list-style: none;
-}
-
-.nav {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    align-items: center;
-    height: 30px;
-}
-
-.nav-item {
-    display: inline-block;
-    padding: 1em;
-}
-
-.nav-item.home {
-    background-color: #F1F1F1;
-}
-
-.nav-link {
-    text-decoration: none;
-    color: #F1F1F1;
-    font-size: 11px;
-}
-
-.nav-link.home {
-    color: black;
 }
 
 .container.container-grow {
     flex-grow: 1;
 }
 
-.container.background-red {
+.row {
+    display:flex;
+    width: 100%;
+    max-width: 1240px;
+}
+
+.column {
+    display:flex;
+    flex-direction: column;
+    flex-grow:1;
+}
+
+nav {
+    background: red;
+    border-bottom: solid;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    font-size: 11px;
+    padding: 1em;
+}
+
+nav ul li a.nav-home{
+    background-color: white;
+    color: black;
+}
+
+.container.color-red {
     background-color: red;
 }
 
-.container.background-grey {
-    background-color: #F1F1F1;
-}
-.row.row-grow {
-    flex-grow: 1;
-
-}
-
-.row.background-darkgrey {
-    background-color: #666666;
-}
-
-.container.border-bottom-color {
-    border-bottom: solid 1px;
-}
-
-.row.header {
-    display: flex;
-    flex-grow: 1;
+.row.header{
     flex-direction: column;
+    flex-grow: 1;
     align-items: center;
     color: white;
-    margin: 0;
-    padding: 0;
-
 }
 
-.column1 {
-    display: flex;
-    flex-grow: 1;
-    flex-direction: column;
-    padding: 0;
-    margin: 0;
-}
-
-.column1.start-page {
+.column.header{
     flex-direction: row;
-    align-items: end;
-    flex-grow: 1;
+    align-items: center;
+}
+.column.font-size{
     font-size: 30px;
-
+    align-items: end;
 }
 
-.column1.template {
-    flex-direction: row;
-    flex-grow: 1;
-    align-items: center;
-    font-size: 11px;
-
+.column.get-started {
+    align-items: start;
 }
 
-.get-started {
-    color: white;
-    background-color: black;
+a.get-started {
     text-decoration: none;
-    font-size: 9px;
-    padding: 1em;
-
-
-
+    background-color: black;
+    padding: 5px;
+    color: white;
+    font-size: 10px;
 }
+
+
+
+
+
