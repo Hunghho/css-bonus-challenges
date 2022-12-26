@@ -70,6 +70,7 @@ nav ul li a.nav-home{
     flex-grow: 1;
     align-items: center;
     color: white;
+    font-family: "Montserrat", sans-serif;
 }
 
 .column.header{
@@ -93,7 +94,9 @@ a.get-started {
     font-size: 10px;
 }
 
-
+h4 {
+    display: flex;
+}
 
 
 
