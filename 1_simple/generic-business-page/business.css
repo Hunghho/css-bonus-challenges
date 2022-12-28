@@ -29,7 +29,7 @@ body {
 .row {
     display:flex;
     width: 100%;
-    max-width: 1240px;
+    /*max-width: 1240px;*/
 }
 
 .column {
@@ -94,10 +94,24 @@ a.get-started {
     font-size: 10px;
 }
 
-h4 {
-    display: flex;
-    color: red;
+.container.box-two{
+    flex-direction: row;
+
 }
+
+.pic-one {
+    height: 100%;
+    width: 200px;
+    float: right;
+}
+
+.para-one {
+    float: right;
+
+}
+
+
+
 
 
 
