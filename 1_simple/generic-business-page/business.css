@@ -17,11 +17,14 @@ body {
     background-color: white;
 }
 
-.container {
-    display: flex;
-    flex-direction: column;
-}
+/*.container {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*}*/
 
+.container.header{
+    display: flex;
+}
 .container.container-grow {
     flex-grow: 1;
 }
@@ -95,21 +98,18 @@ a.get-started {
 }
 
 .container.box-two{
-    flex-direction: row;
 
 }
+
 
 .pic-one {
     height: 100%;
     width: 200px;
     float: right;
+
 }
 
-.para-one {
-    float: right;
-    text-align: center;
-    color: green;
-}
+
 
 
 
