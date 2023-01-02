@@ -98,15 +98,14 @@ a.get-started {
 }
 
 .container.box-two{
-
+    display: flex;
+    flex-direction: column;
 }
-
 
 .pic-one {
     height: 100%;
     width: 200px;
     float: right;
-
 }
 
 
